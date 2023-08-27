@@ -1,0 +1,45 @@
+.mentorCard {
+  display:flex;
+  flex-direction: column;
+  height: 300px;
+  width:150px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.mentorCard__imageWrapper{
+  margin: auto;
+  /* border: 2px solid rgb(191, 232, 215); */
+  border-radius: 50%;
+  height:100px;
+  width: 100px;
+}
+
+.mentorCard__info {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.mentorCard__info__name{
+  font-weight: 500;
+  font-size: larger;
+}
+
+.mentorCard__image{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.mentorCard__button{
+  width:80%;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 10px;
+  margin: auto;
+}

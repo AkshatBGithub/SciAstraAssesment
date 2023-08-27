@@ -1,0 +1,21 @@
+.universityCard {
+  width: 150px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.universityCard__info {
+  width: 100px;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.universityCard__info__name{
+  font-weight: 500;
+  font-size: larger;
+}
+
+

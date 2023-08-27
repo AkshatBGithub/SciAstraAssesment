@@ -1,0 +1,35 @@
+.teamCard {
+  height: 200px;
+  width:150px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.teamCard__imageWrapper{
+  margin: auto;
+  /* border: 2px solid rgb(191, 232, 215); */
+  border-radius: 50%;
+  height:100px;
+  width: 100px;
+}
+
+.teamCard__info {
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.teamCard__info__name{
+  font-weight: 500;
+  font-size: larger;
+}
+
+.teamCard__image{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+

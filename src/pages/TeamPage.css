@@ -1,0 +1,45 @@
+.teamPage__universityCards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  justify-content: center;
+  margin: auto;
+}
+
+.teamPage__teamCards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  justify-content: center;
+  margin: auto;
+}
+
+.teamPage__text__large{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 600;
+  font-family: cursive;
+  padding: 100px;
+  /* border: 2px solid red; */
+}
+
+.teamPage__text__medium{
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  font-family: cursive;
+  padding: 20px;
+  padding-top: 30px;
+  /* border: 2px solid red; */
+}
+
+.teamPage__mentorCards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+  justify-content: center;
+  margin: auto;
+}
